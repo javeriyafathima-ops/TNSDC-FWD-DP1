@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #fff8f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #f78fb3, #fbc2eb);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 span {
+      color: #ffe066;
+    }
+    header button {
+      padding: 12px 24px;
+      background: white;
+      color: #f78fb3;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+    header button:hover {
+      background: #ffe066;
+      color: #333;
+    }
+    .about {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .about img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #f78fb3;
+    }
+    .about h2 {
+      color: #f78fb3;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .projects div {
+      background: #fff;
+      padding: 25px;
+      margin: 12px;
+      width: 260px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .projects div:hover {
+      transform: translateY(-5px);
+    }
+    .projects h3 {
+      color: #f78fb3;
+    }
+    .contact {
+      text-align: center;
+      padding: 50px 20px;
+      background: #fbc2eb;
+    }
+    .contact h2 {
+      color: #fff;
+    }
+    .contact input, .contact textarea {
+      width: 80%;
+      max-width: 420px;
+      margin: 10px auto;
+      padding: 12px;
+      display: block;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-family: 'Poppins', sans-serif;
+    }
+    .contact button {
+      padding: 12px 24px;
+      background: #f78fb3;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+    .contact button:hover {
+      background: #ffe066;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm <span>Javeriya Fathima</span></h1>
+    <p>A passionate student learning web development! 🚀</p>
+    <button>View My Work</button>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="https://i.pinimg.com/564x/2d/4c/6a/2d4c6a5d84b327a9d505e39a13f6c759.jpg" alt="Female Avatar" />
+    <p>I enjoy creating beautiful, functional websites and learning new technologies every day.</p>
+  </section>
+
+  <section class="projects">
+    <div>
+      <h3>Project 1</h3>
+      <p>Responsive portfolio website.</p>
+    </div>
+    <div>
+      <h3>Project 2</h3>
+      <p>JavaScript-based quiz app.</p>
+    </div>
+    <div>
+      <h3>Project 3</h3>
+      <p>Personal blog with CSS & HTML.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name" />
+    <input type="email" placeholder="Your Email" />
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Send</button>
+  </section>
+
+</body>
+</html>
+
